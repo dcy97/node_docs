@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "小...坏@蛋",
   description: "人民万岁",
-
+  outDir: "docs", // 打包输出目录
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
